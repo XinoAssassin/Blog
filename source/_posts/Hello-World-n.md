@@ -1,7 +1,9 @@
 ---
 title: Hello,World.\n
 date: 2017-11-11 16:38:26
-tags: Everything
+tags: 
+      - Everything
+      - Blog
 ---
 
 想自己架个 Blog 好几个月了，开始用了 Jekyll，在 Windows 上做本地生成不太方便，扔远程机器上有时候自己会忘记目录结构也很麻烦。
