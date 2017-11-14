@@ -1,0 +1,3 @@
+[submodule "theme/hexo-theme-typescript"]
+	path = theme/hexo-theme-typescript
+	url = git@github.com:XinoAssassin/hexo-theme-typescript
