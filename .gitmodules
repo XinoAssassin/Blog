@@ -1,3 +1,6 @@
 [submodule "hexo-theme-typescript"]
 	path = theme/hexo-theme-typescript
 	url = git@github.com:XinoAssassin/hexo-theme-typescript
+[submodule "theme/landscape"]
+	path = theme/landscape
+	url = git@github.com:hexojs/hexo-theme-landscape
