@@ -78,7 +78,7 @@ plugins: hexo-generator-feed
 
 feed:
   type: atom
-  path: atom.xml
+  path: /atom.xml
   limit: 20
 
 # Deployment
