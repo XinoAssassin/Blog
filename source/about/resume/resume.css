@@ -30,14 +30,14 @@
 
 html {
   height: 100% ! important;
-  background: url('../images/low_contrast_linen.png');
 }
 
 /* //-- yui-grids style overrides -- */
 
 body {
-  font-family: Georgia, Garamond, "Times New Roman", Times, serif;
-  color: #444;
+  font-family: "Source Han Serif SC";
+  font-weight: 500;
+  color: rgb(0, 0, 0);
 }
 
 .yui-gf {
@@ -70,7 +70,7 @@ header h2 {
 }
 
 article,
-footer {  margin-bottom: 2em }
+footer {  margin-bottom: 0.25em }
 
 footer p {
   margin-bottom: 0;
@@ -103,7 +103,10 @@ p {
   line-height: 18px;
 }
 
-a {  color: #990003 }
+a {  
+  color: #990003;
+  text-decoration: none;
+ }
 
 a:hover {  text-decoration: none }
 
@@ -116,7 +119,7 @@ li {
 
 p.enlarge {
   font-size: 144%;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .contact-info {
