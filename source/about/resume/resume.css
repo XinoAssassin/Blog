@@ -70,7 +70,7 @@ header h2 {
 }
 
 article,
-footer {  margin-bottom: 0.25em }
+footer {  margin-bottom: 0 }
 
 footer p {
   margin-bottom: 0;
@@ -80,7 +80,7 @@ footer p {
 /* //-- footer -- */
 
 footer {
-  padding: 1em 0 5em 0;
+  padding: 0.5em 0 1.5em 0;
   font-size: 92%;
   border-top: 1px solid #ccc;
   text-align: center;
