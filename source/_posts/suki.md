@@ -1,7 +1,6 @@
 ---
 title: 好き
 tags:
-  - Everything
   - 杂
 date: 2019-01-03 16:38:43
 ---

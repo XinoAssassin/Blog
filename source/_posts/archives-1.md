@@ -1,7 +1,6 @@
 ---
 title: 冷冷的却又不刺骨
 tags:
-  - Everything
   - 杂
 date: 2015-12-05 00:54:00
 ---

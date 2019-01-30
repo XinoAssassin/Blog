@@ -1,7 +1,8 @@
 ---
 title: Just Because 与暗恋与青春
 tags:
-  - Everything
+  - 杂
+  - Memories
 date: 2017-12-08 16:37:23
 ---
 

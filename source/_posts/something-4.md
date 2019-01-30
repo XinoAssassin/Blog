@@ -1,7 +1,6 @@
 ---
 title: 杂（五）
 tags:
-  - Everything
   - 杂
 date: 2019-01-06 05:07:01
 ---

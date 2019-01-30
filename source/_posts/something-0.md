@@ -1,7 +1,6 @@
 ---
 title: 杂（一）
 tags:
-  - Everything
   - Memories
   - 杂
 date: 2017-12-03 16:01:33

@@ -1,7 +1,6 @@
 ---
 title: 中国式家长
 tags:
-  - Everything
   - 杂
 date: 2018-04-20 19:54:01
 ---

@@ -1,7 +1,6 @@
 ---
 title: 折腾记-0
 tags:
-  - Everything
   - Programming
 date: 2018-01-30 14:13:57
 ---

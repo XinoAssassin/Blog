@@ -1,8 +1,8 @@
 ---
 title: 一场因为使用 Git Submodule 引发的血案
 tags: 
-      - Everything
-      - Blog
+    - Programming
+    - Blog
 date: 2017-11-14 15:45:59
 ---
 

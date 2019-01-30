@@ -2,7 +2,6 @@
 title: 游戏六月
 tags:
   - Game
-  - Everything
 date: 2018-07-02 21:52:55
 ---
 

@@ -2,7 +2,7 @@
 title: RaidFinder 开发记——1
 tags:
   - Programming
-  - Everything
+  - Game
 date: 2018-01-13 17:57:36
 ---
 

@@ -2,6 +2,7 @@
 title: PC 硬件史话——序章
 tags:
   - Hardware History
+  - Hardware
 date: 2018-07-25 21:42:59
 ---
 

@@ -2,7 +2,6 @@
 title: 游戏列表
 tags:
   - Game
-  - Everything
 date: 2019-01-26 22:55:17
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Arch Linux 小折腾记
 tags:
-  - Everything
+  - 杂
+  - Programming
 date: 2018-02-13 15:46:21
 ---
 

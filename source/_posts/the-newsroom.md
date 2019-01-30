@@ -2,8 +2,8 @@
 title: The Newsroom
 date: 2018-04-13 22:34:54
 tags:
-- Everything
-- 杂
+    - 杂
+    - Entertainment
 ---
 
 许多年前——其实也就是近几年——我听说了一部名为《新闻编辑室》的美剧，但却是前几天，我才看了这部早就应该看的剧。

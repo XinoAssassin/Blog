@@ -2,7 +2,6 @@
 title: GeForce RTX 前瞻——在图灵架构初来乍到之时
 tags:
   - Hardware
-  - Everything
 date: 2018-08-14 23:16:25
 ---
 

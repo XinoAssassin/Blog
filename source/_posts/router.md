@@ -1,7 +1,8 @@
 ---
 title: 家庭网络和路由
 tags:
-  - Everything
+  - 杂
+  - Hardware
 date: 2018-01-21 14:14:05
 ---
 

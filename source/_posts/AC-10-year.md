@@ -2,7 +2,6 @@
 title: AC 十周年
 tags:
   - Game
-  - Everything
 date: 2017-11-26 22:21:43
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 关于抗锯齿
 tags:
-  - Everything
   - Hardware
   - Game
 date: 2018-03-11 17:51:47

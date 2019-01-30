@@ -2,7 +2,7 @@
 title: 计划：用 Node.js 重写 GBF-RaidFinder
 tags:
   - Programming
-  - Everything
+  - Game
 date: 2018-01-08 23:11:06
 ---
 

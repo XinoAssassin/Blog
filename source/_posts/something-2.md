@@ -1,7 +1,6 @@
 ---
 title: 杂（三）
 tags:
-  - Everything
   - 杂
   - Blog
 date: 2017-12-24 20:22:24

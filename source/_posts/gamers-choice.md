@@ -2,7 +2,6 @@
 title: 玩家用脚投票
 tags:
   - Game
-  - Everything
 date: 2017-12-17 22:31:22
 ---
 

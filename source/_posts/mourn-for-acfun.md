@@ -1,8 +1,8 @@
 ---
 title: 悼念 AcFun
 tags:
-  - Everything
   - 杂
+  - ACG
 date: 2018-02-02 16:08:02
 ---
 

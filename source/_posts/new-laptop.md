@@ -2,7 +2,6 @@
 title: 再见，老伙计；你好，新朋友
 tags:
   - Hardware
-  - Everything
 date: 2018-05-12 21:12:12
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: 国内的一些 Progressive Web App
+title: Progressive Web App
 tags:
-  - Everything
+  - Programming
 date: 2018-01-01 22:26:21
 ---
 

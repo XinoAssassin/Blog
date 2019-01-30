@@ -1,7 +1,6 @@
 ---
 title: 杂（四）
 tags:
-  - Everything
   - 杂
 date: 2018-04-22 23:14:00
 ---
