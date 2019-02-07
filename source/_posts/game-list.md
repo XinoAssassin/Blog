@@ -6,7 +6,7 @@ date: 2019-01-26 22:55:17
 ---
 
 
-简单记录下打过的游戏，先是按系列字母顺序排列，系列中按年代顺序排列。
+简单记录下打过的游戏，先是按系列字母顺序排列，系列中按年代顺序排列。日厂开发的游戏会标注日文，如果没有英文就放在最后。
 
 - Assassin's Creed II
 
@@ -50,9 +50,7 @@ date: 2019-01-26 22:55:17
 
 - Call of Duty
 
-  通关
-
-- Call of Duty: United Offensive
+  通关，United Offensive 通关
 
   通关
 
@@ -85,6 +83,10 @@ date: 2019-01-26 22:55:17
   刚开头
 
 - Call of Duty: Black Ops 4
+
+- Celeste
+
+  开坑
 
 - Counter-Strike
 
@@ -162,6 +164,8 @@ date: 2019-01-26 22:55:17
 
   美好回忆，只在过去
 
+- Mario Kart 8 *マリオカート8*
+
 - Mini Metro
 
 - NieR:Automata
@@ -172,7 +176,7 @@ date: 2019-01-26 22:55:17
 
   到达第二个目标点
 
-- Overcooked
+- Overcooked!
 
   差一点通关
 
@@ -187,6 +191,8 @@ date: 2019-01-26 22:55:17
 - PLAYERUNKNOWN'S BATTLEGROUNDS
 
   美好回忆，只在过去
+
+- Pokémon: Let's Go, Pikachu! *ポケットモンスター Let's Go!*
 
 - Portal
 
@@ -210,7 +216,15 @@ date: 2019-01-26 22:55:17
 
 - Sniper Elite V2
 
+- Splatoon 2
+  
+  刚入门，每天涂两把
+
 - Stardew Valley
+
+- Super Smash Bros. Ultimate
+
+  解锁40+人物，命魂进度50%
 
 - Team Fortress 2
 
@@ -229,6 +243,10 @@ date: 2019-01-26 22:55:17
 - The Legend of Heroes: Ao no Kiseki *英雄伝説 碧の軌跡*
 
   第三章
+
+- The Legend of Zelda: Breath of the Wild *ゼルダの伝説 ブレス オブ ザ ワイルド*
+  
+  开坑
 
 - The Witcher
 
@@ -270,9 +288,16 @@ date: 2019-01-26 22:55:17
 
   主线进度中部左右
 
+- WHITE ALBUM2
+  
+  IC 一周目，CC 雪菜线，coda 雪菜 TE、冬马 TE
+
 - World of Goo
 
 - World of Warcraft
 
   永远的110级奥术法师
 
+- Ys VIII: Lacrimosa of Dana *イースVIII -Lacrimosa of DANA-*
+
+  开坑

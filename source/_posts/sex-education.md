@@ -42,8 +42,7 @@ date: 2019-01-31 03:44:56
 - 单相思怎么办
 
 最后一个例子我直接截了一段视频出来：
-<video controls src="//f.us.sinaimg.cn/004wVuArlx07rber3r9m0104120259tW0E010.mp4?label=mp4_720p&amp;template=1280x720.20.0&amp;Expires=1548876386&amp;ssig=T0NkrHcb9Y&amp;KID=unistore,video" width=800 height=480>
-            您的浏览器不支持HTML5
+<video controls src="/images/sex-education-clip.mp4" width=800 height=480>
 </video>
 片中几个震撼场景，给我印象最深的就是第五集末尾的集体对校园欺凌行为说不。在大会上向全年级宣告「It's my vagina」实在是需要非常大的勇气，但是发展到一个个站起来复读出这句话时就形成了一种非常震撼的场面，这里因为涉及到剧透没办法好好讲，所以还是请有兴趣的朋友们自己去看吧。
 
