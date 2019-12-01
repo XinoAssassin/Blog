@@ -2,6 +2,8 @@
 title: 当前女友成为家人
 tags:
   - ACG
+  - Comment
+  - Entertainment
 date: 2018-11-11 16:35:54
 ---
 

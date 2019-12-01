@@ -3,6 +3,7 @@ title: Arch Linux 小折腾记
 tags:
   - 杂
   - Programming
+  - DIY
 date: 2018-02-13 15:46:21
 ---
 

@@ -2,6 +2,7 @@
 title: Latitude 5285 半长测
 tags:
   - Hardware
+  - DIY
 date: 2018-10-17 21:15:41
 ---
 
