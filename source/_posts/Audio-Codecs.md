@@ -1,7 +1,7 @@
 ---
 title: 音频编码变迁录
 tags:
- - 杂
+ - Tutorial
 date: 2019-11-28 15:34:47
 ---
 
@@ -14,7 +14,6 @@ date: 2019-11-28 15:34:47
 怎么转换呢？首先针对一段声音的音频波形，我们可以用一个较为复杂的波形函数来表示，既然它是函数，那让我们回想一下初中高中大学我们都是怎么把函数画出来的，用线把一个个点连接到一起对不对？那么现在我们反过来，在这条已经给定的函数图像上面按照一定的间隔取点，这个过程就叫做采样，取完点之后把它的值用数字给记录下来，这就叫做量化。
 
 <p style="text-align:center;"><img src="/images/image-20191127212231945.png" /><br/>在音频编辑软件中将音频波形放大，你可以看到一个个取样点</p>
-
 这种将声波记录成数字数据的方式就叫做PCM调制，这里说的很简化，但是原理其实是一样的，就是用记录下来的点去拟合出声波函数应该有的样子，在PCM调制中，我们记录到的数据是时间与对应的电平值。而上面这两个操作就带来了**采样频率**和**量化位数**这两个关键特征。
 
 ### PCM调制下的音频重要特征
@@ -64,11 +63,9 @@ CD标准确定之后，它逐渐变成了音乐发行使用的主要介质，但
 也就是说，采样频率/量化位数在48kHz/20-bit或其上的音频都可以被称之为"High Resolution Music"，简称就是Hi-Res Music。
 
 <p style="text-align:center;"><img src="/images/logo-150x150.png" /><br/>RIAA的Hi-Res Music Logo</p>
-
 其实在RIAA之前，日本的電子情報技術産業協会（JEITA）在2013年[制定](/images/https://www.jas-audio.or.jp/english/hi-res-logo-en)了一套适用于日本国内的Hi-Res标准，这套标准规定了Hi-Res音频在模拟和数字处理过程中必须参照使用的规范，其中对于数字处理过程，JEITA要求全过程的音频格式均在96kHz/24-bit及之上。
 
 <p style="text-align:center;"><img src="/images/hireslogo-150x150.png" /><br/>这个Logo也是我们现在能看到最多的代表Hi-Res的Logo。 </p>
-
 而这套标准也被日本的音频器材行业带向了全球。
 
 ## 常用的有损音频编码
@@ -94,11 +91,9 @@ MP3的全称为MPEG-1 Audio Layer III，也可以是MPEG-2 Audio Layer III，它
 一是它太狠了，对于20kHz以上的声音几乎就是一刀切，比如下面这张图就是一段320kbps CBR编码的MP3音频频谱图，可以看到20kHz上面完全消失了，这种情况主要出现在CBR编码的MP3上面。
 
 <p style="text-align:center;"><img src="/images/image-20191127231815878.png" /><br/>使用CBR 320kbps参数进行编码，可以看到编码后的音频频率上限就是20kHz</p>
-
 当然你也可以强行关闭编码器的一刀切行为。
 
 <p style="text-align:center;"><img src="/images/image-20191127232759538.png" /><br/>这是开启使用最高品质VBR编码的MP3频谱，可以看到20kHz以上是完整的</p>
-
 一刀切虽然可以大幅减少音频文件的体积，但在实际听感上总会感觉缺了什么。
 
 第二个缺点，其实也不能算是MP3编码自身的缺点而是它使用的标签有问题。肯定有用户在下载网上的MP3资源时遇到过乱码问题，比如：
@@ -131,7 +126,7 @@ AAC使用两种容器，一般我们见到的都是以.m4a为扩展名的文件�
 
 AAC-LC，或者叫低复杂度（Low Complexity）AAC，你可以将它看成是原版的AAC编码，它的编码规范写在MPEG-2 Part 7中，在MPEG-4 Part 3中就直接叫做AAC Profile，而HE-AAC全称High-Efficiency AAC，直译就是高效AAC，它的编码规范写在MPEG-4 Part 3中。主要区别是HE-AAC利用了一些新特性，在编码效率上有明显的提高，特别是在低码率情况下。
 
-![AAC-LC-HE.png](/images/AAC-LC-HE.png.jpg)
+![AAC-LC-HE.png](/images/783px-HE-AAC_and_HE-AAC_v2.svg.jpg)
 
 简单的关系图如上，可以看到HE-AAC包含了很多新特性，这些新特性帮助它实现了更高的压缩比。
 
@@ -142,7 +137,6 @@ AAC-LC，或者叫低复杂度（Low Complexity）AAC，你可以将它看成是
 WMA全称Windows Media Audio，它同样使用了音频心理学对原始音频进行处理，去除人耳不敏感的声音来减小数据体积，思路与MP3大同小异，不过具体实现上面有差异。WMA是与Windows Media紧紧捆绑的一种音频编码格式，不过微软将编解码开放给了第三方，交钱就可以用，所以在十多年前的MP3播放器上我们也可以播放WMA格式的音频。WMA与Windows Media一起升级，它还有个增强版，就是WMA Pro。我们比较熟悉的可能是Windows XP SP2自带的那个Windows Media Player 9.0，实际上在这个版本中，微软还为WMA引入了无损编码，称为WMA Lossless。
 
 <p style="text-align:center;"><img src="/images/image-20191128152343951.png" /><br/>Windows 10还带着Windows Media Player，但还有人用吗？</p>
-
 但是随着微软在多媒体格式竞争中的全面失败，Windows Media也不再更新了，WMA也就慢慢的不再流行了。
 
 ### Dolby Digital（AC-3）与DTS：电影工业的常客
@@ -168,7 +162,6 @@ Dolby Digital的开创性在于它是首个使用MDCT算法进行压缩的编码
 与Dolby Digital选择使用MDCT算法不同的是，DTS选择了ADPCM作为算法基础，这种算法是PCM的变种，与PCM使用固定量化位数记录电平值不同的是，ADPCM有自适应的特征，在音频电平差值较小时用较少的量化位数去记录，而差值大的时候用更多的量化位数进行记录，这样对于存储空间的利用率就更高了，相对于用MDCT算法算出不同的频率段再砍掉人耳不敏感部分的做法，基于ADPCM算法的编码虽然压缩率要低一些，但是对于声音细节的保留肯定是它要做的更好。当然，这就使得它的体积控制比DD要差一些，所以在一般的DVD上，我们更常见到的是DD而不是DTS。
 
 <p style="text-align:center;"><img src="/images/dd.jpg" /><br/>好莱坞电影真的是以Dobly编码居多的</p>
-
 Dolby实验室与DTS的竞争从这时候的DD与DTS开始，一直延续到今天的Dolby TrueHD VS. DTS-HD Master Audio，后面两个都已经是无损编码了，我们放到下面去讲。
 
 ### Vorbis与Opus：多见于语音编码
@@ -248,7 +241,6 @@ DTS-HD Master Audio在日本用的比较多一些，尤其是各种动画小圆�
 基于PDM调制的原理，Sony和飞利浦在1999年推出了用于取代CD的SACD（Super Audio CD），它使用的ΔΣ算法在模拟/数字转换（A/D）过程中会以64倍于CD的采样率（2.8224MHz）对原始音频进行过采样，而由于PDM的特性，量化位数当然就只有1-bit，因为只有每一个采样点都只有开或者关两种状态嘛。
 
 <p style="text-align:center;"><img src="/images/PCM-vs-DSD.png" /><br/>PCM与DSD的对比</p>
-
 DSD解决了传统PCM编码上的高频量化噪声问题，高采样率同时还带来了更加丰富的声音细节，而密度调制的方式也使得它拥有更大的声音动态范围。除了原始的64倍采样率的DSD之外，后来还推出了DSD128、DSD256、DSD512等新格式，它们的采样率逐步上升。
 
 现在我们可以拿到的DSD音频一般都是ISO镜像格式的，使用专门的解码器可以将其转换成PCM音频播放，而支持DSD直通播放的设备还是相当的贵。

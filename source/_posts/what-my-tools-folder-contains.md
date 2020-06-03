@@ -1,7 +1,7 @@
 ---
 title: 我的 Tools 文件夹中都有什么
 tags:
-  - 杂
+  - Tutorial
 date: 2019-03-23 15:59:06
 ---
 

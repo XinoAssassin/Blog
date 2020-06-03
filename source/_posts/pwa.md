@@ -1,7 +1,7 @@
 ---
 title: Progressive Web App
 tags:
-  - Programming
+  - Tutorial
 date: 2018-01-01 22:26:21
 ---
 

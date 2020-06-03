@@ -1,7 +1,7 @@
 ---
 title: 故人
 tags:
-  - 杂
+  - Comment
   - Memories
 date: 2018-02-13 14:21:11
 ---

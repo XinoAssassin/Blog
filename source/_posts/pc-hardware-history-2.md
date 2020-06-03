@@ -2,6 +2,7 @@
 title: PC 硬件史话（二）
 tags:
   - Hardware History
+  - Hardware
 date: 2019-03-31 22:55:23
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 家庭网络和路由
 tags:
-  - 杂
+  - Tutorial
   - Hardware
   - DIY
 date: 2018-01-21 14:14:05

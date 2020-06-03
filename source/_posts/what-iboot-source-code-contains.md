@@ -2,7 +2,6 @@
 title: 泄露的 iBoot 源代码中都有些什么
 tags:
   - Programming
-  - 杂
 date: 2018-02-09 17:05:33
 ---
 
