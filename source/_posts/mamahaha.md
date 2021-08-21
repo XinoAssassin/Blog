@@ -12,7 +12,7 @@ date: 2018-11-11 16:35:54
 
 可能是最近光棍节临近，生活空虚寂寞，外加之对于青春恋爱系作品的渴求日益增长，使得我在看到首页时间线的推荐之后的十小时内，吃奶一般地读完了目前连载的全部36章，读完之后大呼过瘾，故醒来马上开始码我的首篇安利文。（本文几乎不涉及剧透）
 
-<img src="/images/mamahaha.jpg" width=50% />
+<img src="/images/mamahaha.jpg" width=60% />
 
 ## 正文
 
@@ -54,13 +54,13 @@ date: 2018-11-11 16:35:54
 
 在简单查看了作者以往的作品之后我惊讶的发现，紙城境介以往的作品几乎都是“魔王勇者”类的冒险题材，这部“拖油瓶”可能是他公开的第一部将舞台搬至现实生活中，将题材改为青春恋爱系的作品。
 
-![works-by-kamishiro1](/images/works-by-kamishiro1.jpg)
+![](/images/works-by-kamishiro1.jpg)
 
-![works-by-kamishiro2](/images/works-by-kamishiro2.jpg)
+![](/images/works-by-kamishiro2.jpg)
 
 而“拖油瓶”也并不是他文库化的出道作，之前的两部文库化作品都只有1卷就没有下文了。
 
-![works-by-kamishiro3](/images/works-by-kamishiro3.jpg)
+![](/images/works-by-kamishiro3.jpg)
 
 意外的是，虽然之前不曾公开过青春恋爱系的作品，但是一公开，就吸引了不少读者。从上面第二张图的星星数量跳了一个等级也可以看出这部作品确实比作者之前的强太多了。
 

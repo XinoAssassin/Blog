@@ -42,7 +42,7 @@ date: 2019-11-28 15:34:47
 
 在上个世纪五六十年代，人们常用的还是黑胶唱片，而随着1965年光盘的问世，这种比黑胶唱片更加小巧精致的记录载体很快受到了大公司的青睐，其中飞利浦和Sony就决定用光盘作为记录数字音频数据的载体，并为它量身定做一种数字音频记录格式，最终他们决定采用LPCM——线性PCM作为编码。
 
-![CDDAlogo.svg](/images/220px-CDDAlogo.svg.png)
+![](/images/220px-CDDAlogo.svg.png)
 
 然后飞利浦和Sony这两家在CD要使用的LPCM编码具体参数，也就是采样频率和量化位数上面产生了分歧，进行了一段长时间的拉锯战。
 
@@ -78,7 +78,7 @@ CD标准确定之后，它逐渐变成了音乐发行使用的主要介质，但
 
 MP3的全称为MPEG-1 Audio Layer III，也可以是MPEG-2 Audio Layer III，它是在1993年被标准化的，至今已经有26年的历史了。别看它的岁数大，但它应用的音频压缩思想至今仍然在音频编码领域中发挥着重要的作用。
 
-![MP3_Logo](/images/MP3_Logo.jpg)
+![](/images/MP3_Logo.jpg)
 
 首先，MP3使用了MDCT算法，这种算法改正了原始DCT算法上面的一些缺点，它将音频原本的时域信息转换成频域信息，是之后对不同频段信号进行处理的前提。
 
@@ -110,7 +110,7 @@ MP3的全称为MPEG-1 Audio Layer III，也可以是MPEG-2 Audio Layer III，它
 
 AAC名叫进阶音频编码（Advanced Audio Coding），它本来是开发出来取代MP3的。联合起来开发它的公司有一大堆，个个都是知名大企业或研究机构，比如索尼、微软、杜比实验室、贝尔实验室，等等等等。最终，AAC被MPEG组织接受，写进了他们的MPEG-2和MPEG-4标准中。
 
- ![Advanced Audio Coding AAC Logo Vector](/images/advanced-audio-coding-aac-logo-1C1956B992-seeklogo.com.png) 
+ ![](/images/advanced-audio-coding-aac-logo-1C1956B992-seeklogo.com.png) 
 
 相对于MP3，AAC使用了完整的MDCT算法，因此在编码效率上它更胜一筹，一般在同等码率下，AAC的质量比MP3更好一些。而其他的改进点还有支持更大范围的采样率（16\~48kHz=>8\~96kHz），最多支持高达48个声道，在对频率高于16kHz的音频处理上明显要好等。总之，作为设计目的是取代MP3的编码，它的特性非常优秀，然而，AAC没有如愿以偿的成功取代掉MP3，究其原因可能还是推广力度不够大。另外，尽管用户无需为使用AAC格式进行流式传输或分发而付费，但硬件制造商和软件开发者需要交这笔钱，专利费用也使得在AAC标准确定之初，普通用户手上根本没有能用的AAC编码器，而在这时候，MP3和著名的LAME编码器已经满天下都是了。
 
@@ -122,11 +122,11 @@ AAC使用两种容器，一般我们见到的都是以.m4a为扩展名的文件�
 
 #### AAC-LC与HE-AAC
 
-![AAC-LC-HE.png](/images/AAC-LC-HE.png.jpg)
+![](/images/AAC-LC-HE.png.jpg)
 
 AAC-LC，或者叫低复杂度（Low Complexity）AAC，你可以将它看成是原版的AAC编码，它的编码规范写在MPEG-2 Part 7中，在MPEG-4 Part 3中就直接叫做AAC Profile，而HE-AAC全称High-Efficiency AAC，直译就是高效AAC，它的编码规范写在MPEG-4 Part 3中。主要区别是HE-AAC利用了一些新特性，在编码效率上有明显的提高，特别是在低码率情况下。
 
-![AAC-LC-HE.png](/images/783px-HE-AAC_and_HE-AAC_v2.svg.jpg)
+![](/images/783px-HE-AAC_and_HE-AAC_v2.svg.jpg)
 
 简单的关系图如上，可以看到HE-AAC包含了很多新特性，这些新特性帮助它实现了更高的压缩比。
 
@@ -147,7 +147,7 @@ VCD上面用的MP1音频编码效果太差了，还不支持多声道，但这�
 
 Dolby实验室是美国一家专注于音频效果、音频编解码领域的公司，原本在模拟时代，它发明的一系列音频编码已经被好莱坞广泛使用，人们在电影院里面最常听到的就是用Dolby技术编码而成的声音。而到了数字时代，他们也紧跟潮流，于1991年推出了Dolby Digital这种数字音频编码。
 
-![Dolby-Digital](/images/Dolby-Digital.png)
+![](/images/Dolby-Digital.png)
 
 Dolby Digital的开创性在于它是首个使用MDCT算法进行压缩的编码，同时他们还使用了音频心理学的研究成果对压缩算法进行优化，使得最终压缩后的产物仍然拥有影院级别的效果，但是DD只支持固定码率编码，这使得它的码率一般都会比较高，所以压缩过后的音频体积也较大。常见的DD编码一般有6个声道，称为DD 5.1，而在很多DVD上面我们经常可以看到它的Logo。DD音频的另外一个特点是它的元数据中带有对解码过程进行控制的相关信息，使得它在支持的播放器上可以还原出制片方想要的效果。
 
@@ -157,7 +157,7 @@ Dolby Digital的开创性在于它是首个使用MDCT算法进行压缩的编码
 
 在电影音频领域中，另一家影响力很广，技术力很强的公司就是DTS了，DVD时代我们经常见到的就是他们以公司名命名的音频编码格式DTS，这种编码推出于1993年，直接竞争对手就是Dolby实验室的产品。
 
-![DTS_small_logo](/images/DTS_small_logo.png)
+![](/images/DTS_small_logo.png)
 
 与Dolby Digital选择使用MDCT算法不同的是，DTS选择了ADPCM作为算法基础，这种算法是PCM的变种，与PCM使用固定量化位数记录电平值不同的是，ADPCM有自适应的特征，在音频电平差值较小时用较少的量化位数去记录，而差值大的时候用更多的量化位数进行记录，这样对于存储空间的利用率就更高了，相对于用MDCT算法算出不同的频率段再砍掉人耳不敏感部分的做法，基于ADPCM算法的编码虽然压缩率要低一些，但是对于声音细节的保留肯定是它要做的更好。当然，这就使得它的体积控制比DD要差一些，所以在一般的DVD上，我们更常见到的是DD而不是DTS。
 
@@ -180,7 +180,7 @@ Vorbis编码的原理与其他有损编码相比也是大同小异，基于MDCT�
 
 APE是Monkey's Audio这个编码使用的扩展名，但是叫得多了大家都只知道APE而不知道Monkey's Audio了。它是可考的、比较早出现的一种无损音频编码，后面要提到的WavPack（.wv）比它出现的还要早，但是APE却是头一个大范围流行起来的无损音频编码，最初版本公开于2000年。
 
-![image-20191128154458041](/images/image-20191128154458041.png)
+![](/images/image-20191128154458041.png)
 
 问题来了，前面不是说对传统压缩方式对于音频数据并不能起到很好的效果吗？那APE是怎么在无损的情况下实现如此高的压缩率的？答案也很简单，传统方式不行，那我就用新的针对性算法呗。
 
@@ -196,7 +196,7 @@ APE主要使用了三大算法来实现对原始音频数据的无损压缩，�
 
 FLAC基本上是与APE同时间提出来的，稍微晚了那么一丢丢，它直接将编码的最大特点写在自己的名字里了——Free Lossless Audio Codec，自由、无损。
 
- ![FLAC Logo](/images/logo130.gif) 
+ ![](/images/logo130.gif) 
 
 相对于APE，虽然同样使用了线性预测算法，但它的压缩比稍微差了一点，不过由于FLAC使用全整数的数据计算方式，所以低端电子设备也可轻松对其进行解码，而它在数据结构上考虑到了数据完整性和流传输，它采用帧结构设计确保了即使文件的部分片段遭遇不测，其他部分也能够正常播放，而支持流传输的特性使得它在可以在流媒体时代占据一席之地。并且它对于多声道的支持比APE强很多，最高可以支持8声道。
 
@@ -204,7 +204,7 @@ FLAC身上的种种优点使得它成为了目前最为流行的无损音频压�
 
 ### Apple Lossless（ALAC）
 
- ![img](/images/applelossless.png) 
+ ![](/images/applelossless.png) 
 
 macOS作为很多音频编辑软件使用的系统环境，对于音频编码自然也是有着很高的要求，其实苹果自己也很早就跟进了无损音频的发展，在2004年的时候他们就推出了自己的无损音频压缩编码——Apple Lossless，但是当时这种格式只有苹果自家的系统和软件才能支持，并且会收取授权费用，这也导致了ALAC错过了无损音频开始发展的萌芽期，直到2011年，FLAC已经成为市场主流的情况下，苹果才将ALAC开放出来，并且取消了它的专利费用。
 
@@ -218,13 +218,13 @@ ALAC在编码方式上与其他几种无损音频压缩编码并没有太大的�
 
 ### Dolby TrueHD
 
-![Dolby_TrueHD](/images/Dolby_TrueHD.png)
+![](/images/Dolby_TrueHD.png)
 
 Dolby TrueHD使用与DVD-Audio相同的MLP编码对原始PCM音频数据进行处理，最高支持192kHz/24-bit的规格，另外还支持16个独立声道。与前任Dolby Digital一样，它也带有用于控制播放过程的元数据，提供更加还原的音频效果，Dolby后来推出的Atmos氛围声效果就是通过这些独立于音轨之外的元数据实现的。
 
 ### DTS-HD Master Audio
 
-![DTS-HD-MA](/images/DTS-HD-MA.png)
+![](/images/DTS-HD-MA.png)
 
 这两种多见于蓝光原盘的音频编码都附带了对原来有损编码的兼容，DTS-HD Master Audio内建了一条有损音轨，称为DTS Core Stream，它的无损部分其实是对有损部分的一个补充，在支持的设备上自动就会播放无损的DTS-HD Master Audio，而在不支持的设备上也可以切换到DTS Core Stream，不会影响到正常的播放，而另一边的Dolby TrueHD则是通过附带一条Dolby Digital音轨的方式来解决兼容性。
 

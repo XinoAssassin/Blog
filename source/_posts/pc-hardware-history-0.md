@@ -49,7 +49,7 @@ date: 2019-02-26 12:40:00
 
 这就是半导体行业中著名的"Moore's Law"的前身，在 1975 年 IEEE（电气电子工程师学会）的一次会议上，摩尔修订了预测的增长率，原本两倍的增长率将在 1980 年之后减半。年内稍晚时候，加州理工学院的 Carver Mead 教授将摩尔的预测总结为"Moore's Law"。
 
-<img src="/images/transistors-per-microprocessor.png" width="50%" />
+<img src="/images/transistors-per-microprocessor.png" width="100%" />
 
 摩尔定律事实上只是一条经验定律，但是却延续至今仍旧没有失效，甚至一定程度上在很长一段时间内指引了半导体业界的发展。
 
@@ -57,6 +57,6 @@ date: 2019-02-26 12:40:00
 
 让我们把目光重新对准仙童半导体。在六十年代的前五年，仙童半导体的风光一时无两，员工数量从最早的12人发展到了12000人。然而王权没有永恒，这家公司并不会这么一帆风顺下去。1965 年开始，仙童半导体在公司内部管理上开始出现了一些问题，到了 1967 年 7 月，公司已经开始亏损并且领头羊的位置被德州仪器所夺取。1968 年 8 月，罗伯特·诺伊斯、高登·摩尔和 Andrew Grove 一起从仙童半导体离职，创办了 NM Electronics，一年之后，公司更名为 Intel。1969 年，仙童半导体的一群工程师决定离开公司创业，他们找到了 Jerry Sanders 一起合伙，5 月 1 日，Advanced Micro Devices 公司成立。
 
-<img src="/images/The-Roots-of-Silicon-Valley.jpg" width="50%" />
+<img src="/images/The-Roots-of-Silicon-Valley.jpg" width="70%" />
 
 好了，演员已经全数登场，传奇即将上演。

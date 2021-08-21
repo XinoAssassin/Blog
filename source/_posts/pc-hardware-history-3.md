@@ -87,8 +87,6 @@ IBM 当年在采用 8088 作为第一代 PC 的 CPU 时，根据当时半导体�
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/cW8LLhHq9_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
 ### Wintel
 
 上世纪九十年代中期，Intel 俨然已经成为了 PC 行业的领头羊，由它参与主导制定了多种业界标准，比如用到今天的 USB 就是典型的例子。那么为什么 IBM 没能保持住自己在 PC 市场中的标准制定者的地位呢？让我们把时间倒回到八十年代。

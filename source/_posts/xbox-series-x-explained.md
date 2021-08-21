@@ -29,7 +29,7 @@ Xbox Series X上面使用的这枚“下一代定制处理器”中集成了CPU�
 
 然后来看对于游戏更为重要的GPU。这里Phil Spencer给出了一个具体的数字——12 TFLOPS，这个数字代表的是GPU的单精度浮点运算能力，经常性被用来当作GPU的主要性能指标。但我们并不能单单看这个指标就说新主机的GPU性能会是Xbox One X的两倍，因为它只是一个理论值，实际性能还得看架构，而新主机的GPU架构恰恰就有着巨大的改变。RDNA架构是AMD完全重新打造的显卡架构，在游戏图形效能上面较沿用约八年的GCN架构有很大的提升。比如说，理论单精度性能比RX 580显卡（基于GCN 4.0架构，就是PS4 Pro和Xbox One X上的GPU架构）低1 TFLOPS的RX 5500 XT（基于RDNA架构），其实际游戏性能反而要比前者强。（对于RDNA与GCN架构的实际表现差异，Digital Foundry做过一期视频，有兴趣的可以去看一下：《[Navi RDNA vs GCN 1.0: Last-Gen vs Next-Gen GPU Tech Head-To-Head!](https://www.youtube.com/watch?v=fzPo7gu-fTw)》）
 
-<p style="text-align:center;"><img src="/images/PS5_XboxSeriesX_Specs-5.jpg" / width="100%" /><br/>Digital Foundry推测中的Xbox Series X GPU规格</p>
+<p style="text-align:center;"><img src="/images/PS5_XboxSeriesX_Specs-5.jpg" width="100%" />Digital Foundry推测中的Xbox Series X GPU规格</p>
 
 比较凑巧的是，此前的泄漏显示Xbox Series X的GPU将会集成56组计算单元（CU），Digital Foundry对这枚GPU的单精度浮点性能推算结果正好是12 TFLOPS，所以现在我们可以假设这枚GPU拥有56组CU，那么对比拥有40组CU的Radeon RX 5700 XT（目前RDNA架构的旗舰显卡），它的计算单元规模大了40％，这将会带来显著的性能提升。
 
@@ -49,11 +49,11 @@ VRS的原理是通过改变单次像素着色器操作所处理的像素数量�
 
 目前3DMark已经引入了VRS相关的测试，在该软件的测试中，VRS分为两级，在Tier 1测试中，你会发现画面整体的精细程度都变差了，这是因为整个画面的着色速率都被降低了。
 
-<p style="text-align:center;"><img src="/images/VRS-T1-Comp.jpg" width="100%" /><br/>左：VRS关；右：VRS开</p>
+<p style="text-align:center;"><img src="/images/VRS-T1-Comp.jpg" width="100%" />左：VRS关；右：VRS开</p>
 
 而在完整的Tier 2特性下，才会像上面所说的那样对整个画面进行分区，此时的效果就好了太多：
 
-<p style="text-align:center;"><img src="/images/VRS-T2-Comp-2.jpg" width="100%" /><br/>上：VRS关；下：VRS开。现在区别就小了很多。</p>
+<p style="text-align:center;"><img src="/images/VRS-T2-Comp-2.jpg" width="100%" />上：VRS关；下：VRS开。现在区别就小了很多。</p>
 
 这项技术最大的意义就是提高帧数，而且分辨率越高它的作用越明显。在3DMark的测试中，一张公版RTX 2070在1080p分辨率下的帧数提升为24.43％，而在4K分辨率下，提升幅度已经达到70.84％，在8K下面更是有116.62％的提升，直接从18帧幻灯片变成了40帧基本流畅的水平（数据来源：[超能网](https://www.expreview.com/72147.html)）。
 

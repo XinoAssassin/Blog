@@ -10,11 +10,11 @@ date: 2018-08-14 23:16:25
 
 距离 Nvidia 发布目前主流消费市场上的显卡—— GeForce 10 系列已经过去两年又三个月了，或许是因为竞争对手实在不给力，其推出的 Vega 系列没有撼动 Pascal 系显卡统治地位的能力，又或许是新卡的配套工程出了一些问题，比如制程问题还有 GDDR 6 显存的产量问题。
 
-<img src="/images/Roadmap-2015.jpg" width=75% alt="2015 年 Roadmap" />
+<p style="text-align:center;"><img src="/images/Roadmap-2015.jpg" width=100% />2015 年 Roadmap</p>
 
 这是一张 2015 年初，Nvidia 发布会上的路线图，上面可以很清楚地看到，Pascal 架构之后是 Volta 架构，横坐标对应着 2018。而 Volta 架构的亮相则是在去年年底，2017 年 12 月 7 日，老黄发布了 Titan V，一张价值 3000 美金的发烧级显卡。就在人们翘首期盼新的基于 Volta 架构的显卡之时，Nvidia 却迟迟没有发布新一代的 GeForce 系列，2018 年整个上半年，无数爱好者被时不时传出的一些 Nvidia 新卡的消息吊足了胃口，连新卡用的架构都有三个说法：Volta、Turing 还是 Ampere？直到 2018 年 8 月 13 日，Volta 之后的新架构 Turing 终于随着新一代 Quadro 专业级显卡正式登场了，而也证实了传闻中的 Turing 架构的真实性，以及爱好者们期待许久的新一代 GeForce 显卡就快要登场了，下面就是综合最近的一些消息对 GeForce 新系列的一些前瞻。
 
-<img src="/images/old-huang-with-QuadroRTX.jpg" width=65% alt="老黄举着新的 Quadro RTX 显卡" />
+<p style="text-align:center;"><img src="/images/old-huang-with-QuadroRTX.jpg" width=100% alt="" />老黄举着新的 Quadro RTX 显卡</p>
 
 ## RTX
 
@@ -30,7 +30,7 @@ date: 2018-08-14 23:16:25
 
 > This is a significant moment in the history of computer graphics, Nvidia is delivering real-time ray tracing five years before we had thought possible.  --Jon Peddie, the well-respected CEO of analyst firm JPR and a noted graphics expert 
 
-<img src="/images/an-example-of-Ray-Tracing.jpg" width=65% alt="实时光线追踪样图" />
+<p style="text-align:center;"><img src="/images/an-example-of-Ray-Tracing.jpg" width=100% />实时光线追踪样图</p>
 
 Nvidia 宣称其在新架构上新加入了一种 RT 单元专用于实时光线追踪，新架构在模拟真实世界场景上能 **6 倍**于前代，在实时光线追踪上则能做到 **25 倍**于帕斯卡架构。
 
@@ -38,9 +38,8 @@ Nvidia 宣称其在新架构上新加入了一种 RT 单元专用于实时光线
 
 这是两段近日发布的 Nvidia 的实时光线追踪的 Demo：
 
-https://www.youtube.com/watch?v=bFUWu387ErM
-
-https://www.youtube.com/watch?v=3jb3flTRykQ
+- https://www.youtube.com/watch?v=bFUWu387ErM
+- https://www.youtube.com/watch?v=3jb3flTRykQ
 
 其中效果我只能用恁牛逼啊来叙述。
 
@@ -54,9 +53,9 @@ https://www.youtube.com/watch?v=3jb3flTRykQ
 
 从现有的 Quadro 新卡来看，完整的 Turing 核心似乎是一个超大的核心，相比于 Pascal，其核心面积大了约 60%，晶体管数量多了约 58%，如果数字太过抽象，那么下面这张图就能很好地帮助你理解 Turing 到底大了多少。然而，即使较 Pascal 而言扩张了相当大的面积，Turing 仍然差 Volta 那么一筹（晶体管数量 21B，核心面积 815mm<sub>2</sub>）。
 
-<img src="/images/pascal-vs-turing.jpg" width=70% alt="Pascal VS Turing" />
+<p style="text-align:center;"><img src="/images/pascal-vs-turing.jpg" width=100% alt="" />Pascal VS Turing</p>
 
-<img src="/images/turing-architecture.png" width=70% alt="Turing 架构图" />
+<p style="text-align:center;"><img src="/images/turing-architecture.png" width=100% alt="" />Turing 架构图</p>
 
 这是官方发布会公布的 Turing 架构图，罗列一下现在已知的改进点：
 
@@ -70,7 +69,7 @@ https://www.youtube.com/watch?v=3jb3flTRykQ
 
 近日，AIDA64 的新版本中包括了一些 Nvidia 的新 GPU，其中 GV 104 就被命名成了 GeForce GTX 1180。
 
-<img src="/images/AIDA64-1180.jpg" width=70% alt="GeForce GTX 1180" />
+<p style="text-align:center;"><img src="/images/AIDA64-1180.jpg" width=100% alt="" />GeForce GTX 1180</p>
 
 然而现在 Turing 架构的正式发布似乎标志着 AIDA64 出错了。首先，按照惯例，如果新一代 GeForce 显卡使用 Turing 架构，那么其核心代号则应该是 GT xxx，考虑到已经出现过 GT 系列核心代号（GeForce 100/200/300 系列），那么可能会使用别的代号也说不定，但是 GV 开头的可能性已经很小了。其次，按照上文 RTX 一节所说，新卡应该会以 RTX 为前缀而非 GTX。
 

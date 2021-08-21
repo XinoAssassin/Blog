@@ -38,7 +38,7 @@ H.261与首个数字视频编码标准H.120并没有直接的继承关系，它�
 
 我们知道，视频是由一帧一帧的图像组成的组合，一般情况下一秒钟的视频中会包含24、25、30、60或更多张图片，它们按照一定的时间间隔播放出来，基于视觉残留原理形成了流畅、会动的画面。在连续的几帧之间，实际上存在着大量重复的画面，比如说下面这个例子：
 
-<p style="text-align:center;"><img src="/images/mc.jpg" /><br/>一个白色台球在绿色桌面上面运动</p>
+<p style="text-align:center;"><img src="/images/mc.jpg" />一个白色台球在绿色桌面上面运动</p>
 
 ![](/images/mc-vector.jpg)<br/>用小球运动的方向和距离来描述图像的变化
 
@@ -46,7 +46,7 @@ H.261与首个数字视频编码标准H.120并没有直接的继承关系，它�
 
 #### DCT算法
 
-<p style="text-align:center;"><img src="/images/DCT-8x8.jpg" /><br/>将8x8个像素分成一个块</p>
+<p style="text-align:center;"><img src="/images/DCT-8x8.jpg" />将8x8个像素分成一个块</p>
 
 ![](/images/pixel-block.jpg)
 
@@ -56,7 +56,7 @@ DCT算法起源于上世纪70年代，到了80年代中后期，有研究者开�
 
 ![](/images/DCT-pic.jpg)
 
-<p style="text-align:center;"><img src="/images/DCT-pic-2.jpg" /><br/>亮度通道做DCT变换后的图像，可以看到上方颜色连续部分非常平坦，而下方则拥有诸多细节</p>
+<p style="text-align:center;"><img src="/images/DCT-pic-2.jpg" />亮度通道做DCT变换后的图像，可以看到上方颜色连续部分非常平坦，而下方则拥有诸多细节</p>
 
 在H.261及之后基于H.261框架的视频编码中，DCT算法主要针对的是关键帧的压缩，所谓关键帧，就是在运动补偿中作为基准参考的一帧。打个比方，就像Flash动画中的关键帧一样，它定义了一个起点，后续的几帧都是基于这个关键帧演算出来的。因为它只做帧内压缩，不涉及其他帧，又被称为Intra-frame（帧内编码帧），简称I帧。
 
@@ -188,11 +188,11 @@ HD DVD和Blu-ray的标准里一共支持了三种视频编码，其一是古老�
 
 #### 更先进的帧内压缩
 
-<p style="text-align:center;"><img src="/images/intra-pred-1.jpg" /><br/>每个宏块包含的预测模式信息</p>
+<p style="text-align:center;"><img src="/images/intra-pred-1.jpg" />每个宏块包含的预测模式信息</p>
 
 对于I帧，H.264也引入了新的压缩方式。一般来说，对于图像中的某一像素点，它与附近相邻的像素的颜色是差距不大的，所以我们就可以利用这个特性进一步缩小单帧图像的大小，怎么利用呢？H.264将单个宏块内的像素颜色变化规律规范成了公式，编码时只要写此处应用哪个公式就行了。当然这里我表述的较为简单，完整的帧内预测还是非常复杂的，H.264对4x4的宏块规定了9种预测模式，对16x16的亮度平面宏块规定了4种可用模式。大大减少了单帧图像的数据量，同时保持了很高的图像质量。
 
-<p style="text-align:center;"><img src="/images/intra-pred.jpg" /><br/>差分图像加上预测信息可以还原出原始图像</p>
+<p style="text-align:center;"><img src="/images/intra-pred.jpg" />差分图像加上预测信息可以还原出原始图像</p>
 
 #### CABAC
 

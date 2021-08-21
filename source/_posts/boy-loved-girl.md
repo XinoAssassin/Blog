@@ -74,6 +74,6 @@ date: 2018-12-18 03:38:26
 
 最后附上残留的一点纪念品。
 
-<img src="/images/maid-words.png" width=70% />
+<img src="/images/maid-words.png" width=100% />
 
-<img src="/images/letters.jpg" width=60% />
+<img src="/images/letters.jpg" width=100% />

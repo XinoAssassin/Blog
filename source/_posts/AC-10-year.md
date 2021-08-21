@@ -11,7 +11,7 @@ date: 2017-11-26 22:21:43
 
 ## 十年
 
-大家——对于关注游戏界的大家——应该都知道，今年是    <span style="font-family:'Assassin';font-size:24px;">        Assassin's Creed</span> 系列的十周年。从2007年11月13日初代发售，到今年10月27日的 Origin 发售，已经整整过去了十年。期间系列一共发布了正好十部正作，两部外传以及各种手游甚至 Facebook 的页游也有涉及。2016年系列电影的上映也代表着 Ubi 将其影视化的探索——尽管有些失败——和其他媒体端如小说、漫画甚至有消息称，AC系列将搬上电视机。<img src="/images/acseries.jpg" width=50% height=50% />
+大家——对于关注游戏界的大家——应该都知道，今年是    <span style="font-family:'Assassin';font-size:24px;">        Assassin's Creed</span> 系列的十周年。从2007年11月13日初代发售，到今年10月27日的 Origin 发售，已经整整过去了十年。期间系列一共发布了正好十部正作，两部外传以及各种手游甚至 Facebook 的页游也有涉及。2016年系列电影的上映也代表着 Ubi 将其影视化的探索——尽管有些失败——和其他媒体端如小说、漫画甚至有消息称，AC系列将搬上电视机。<img src="/images/acseries.jpg" width=100% />
 
 ## 起
 ### 初见

@@ -14,11 +14,11 @@ date: 2018-03-11 17:51:47
 
 首先，什么是锯齿，以及为什么会出现锯齿。
 
-我们的屏幕，是以一个个正方形的像素点组成的，而正方形的特性导致了在倾斜的线上，边缘必定会出现一个个突起的阶梯状“毛刺”，比如图上这种![preview](/images/04fb3bbbec0c10e70c660aac1efd7cf1_r.jpg)
+我们的屏幕，是以一个个正方形的像素点组成的，而正方形的特性导致了在倾斜的线上，边缘必定会出现一个个突起的阶梯状“毛刺”，比如图上这种![](/images/04fb3bbbec0c10e70c660aac1efd7cf1_r.jpg)
 
 这种阶梯状的“毛刺”就是典型的锯齿。而有了锯齿也就有了抗锯齿(Anti-Aliasing).
 
-抗锯齿的一般过程就是将这个毛刺的边缘柔化，使图像边缘看起来更平滑。如图：![img](/images/4ec755cfd484c8333f094f57b97f3408_hd.jpg)
+抗锯齿的一般过程就是将这个毛刺的边缘柔化，使图像边缘看起来更平滑。如图：![](/images/4ec755cfd484c8333f094f57b97f3408_hd.jpg)
 
 ## 各种算法简单介绍
 
@@ -28,7 +28,7 @@ date: 2018-03-11 17:51:47
 
 超级采样抗锯齿(Super-Sampling Anti-Aliasing, 也可叫做 Supersampling 超采样)是最早也最简单粗暴的抗锯齿手法，它的原理非常简单，就是在渲染时将要输出的分辨率提升 x 倍，比如要输出 1920x1080 的分辨率到屏幕上，开启 SSAA 2x, 那么内部渲染时的分辨率就是 3840x2160, 然后 Downsampling 到 1920x1080 上，自然在许多纹理边缘上就显得平滑许多。但是这种方式太太太吃资源了，所以又开发出了新的算法。
 
-在 Nvidia 发布二代 Maxwell 架构的时候，同时发布的 [DSR](http://www.geforce.cn/hardware/technology/dsr/technology) 技术中就有 SSAA 的影子，技术思路同样是以更高分辨率渲染的原始画面输出到显示器分辨率上来得到更加精细平滑的画面。
+在 Nvidia 发布二代 Maxwell 架构的时候，同时发布的 [](http://www.geforce.cn/hardware/technology/dsr/technology) 技术中就有 SSAA 的影子，技术思路同样是以更高分辨率渲染的原始画面输出到显示器分辨率上来得到更加精细平滑的画面。
 
 ### MSAA
 
@@ -38,7 +38,7 @@ SSAA 太吃资源了，我们的硬件暂时还跟不上，怎么办？于是就
 
 ### CSAA & CFAA 
 
-历史进入 Direct 10 时代，NV 方先声夺人发布了 G80 系列，同时带来了覆盖采样抗锯齿([Coverage-Sampling Anti-Aliasing](http://www.nvidia.com/object/coverage-sampled-aa.html))技术，主要改进了取样类型从而使得抗锯齿效率提升，资源占用量也得到减少。举例来说，如果使用 16x MSAA，需要在周围取得 16 个采样点的色彩值和 Z 轴值，然后保存这些数值进行计算。而 16x CSAA，则全部在被采样的像素点中心取得色彩之和Z轴值，然后对比并去掉同样的数据。一般来说，16x CSAA 后只需要保存 4 份色彩值和 Z 轴值即可。换句话来说，4x MSAA 耗费的资源和 16x CSAA 是相同的，但是，16x CSAA的画面效果相比 4x MSAA 更好。
+历史进入 Direct 10 时代，NV 方先声夺人发布了 G80 系列，同时带来了覆盖采样抗锯齿([](http://www.nvidia.com/object/coverage-sampled-aa.html))技术，主要改进了取样类型从而使得抗锯齿效率提升，资源占用量也得到减少。举例来说，如果使用 16x MSAA，需要在周围取得 16 个采样点的色彩值和 Z 轴值，然后保存这些数值进行计算。而 16x CSAA，则全部在被采样的像素点中心取得色彩之和Z轴值，然后对比并去掉同样的数据。一般来说，16x CSAA 后只需要保存 4 份色彩值和 Z 轴值即可。换句话来说，4x MSAA 耗费的资源和 16x CSAA 是相同的，但是，16x CSAA的画面效果相比 4x MSAA 更好。
 
 同期 ATI 在发布 R600 系列时也带来了可编程过滤抗锯齿(Custom Filter Anti-Aliasing)技术。简单的来说 CFAA 就是扩大取样面积的 MSAA，比方说之前的 MSAA 是严格选取物体边缘像素进行缩放的，而 CFAA 则可以通过驱动判断对影响锯齿效果较大的像素进行缩放，以较少的性能牺牲换取平滑效果。
 
@@ -58,7 +58,7 @@ FXAA 和 MLAA 一样，也是一种后处理抗锯齿，两种 AA 在原理上�
 
 ### TXAA
 
-在抗锯齿这条路上，众多程序员以及各种“家”的探索是不会停下来的。在 Kepler 架构发布的同时，NV 也带来了新的 [TXAA](http://www.geforce.cn/hardware/technology/txaa/technology)(Temporal Anti-Aliasing 可称为“时间性抗锯齿”)技术，据 NV 自家的介绍，这项技术集时间性过滤器、硬件抗锯齿以及定制的 CG 电影式抗锯齿解算法于一身。
+在抗锯齿这条路上，众多程序员以及各种“家”的探索是不会停下来的。在 Kepler 架构发布的同时，NV 也带来了新的 [](http://www.geforce.cn/hardware/technology/txaa/technology)(Temporal Anti-Aliasing 可称为“时间性抗锯齿”)技术，据 NV 自家的介绍，这项技术集时间性过滤器、硬件抗锯齿以及定制的 CG 电影式抗锯齿解算法于一身。
 
 原有的抗锯齿技术在解决静态画面的锯齿上可以说已经达到了瓶颈了，但是在动态画面上，有锯齿的部位很容易出现闪烁。如同其名字中的“时间性”，TXAA 旨在解决“时间性抗锯齿”，也就是动态画面中的锯齿闪烁等问题。而其同时提供着不输于 8x MSAA 的静态画面抗锯齿效果。
 

@@ -42,8 +42,8 @@ date: 2019-01-31 03:44:56
 - 单相思怎么办
 
 最后一个例子我直接截了一段视频出来：
-<video controls src="/images/sex-education-clip.mp4" width=800 height=480>
-</video>
+<div style="text-align:center;"><video controls src="/images/sex-education-clip.mp4" width=800 height=480></video></div>
+
 片中几个震撼场景，给我印象最深的就是第五集末尾的集体对校园欺凌行为说不。在大会上向全年级宣告「It's my vagina」实在是需要非常大的勇气，但是发展到一个个站起来复读出这句话时就形成了一种非常震撼的场面，这里因为涉及到剧透没办法好好讲，所以还是请有兴趣的朋友们自己去看吧。
 
 但其实贯穿整个剧集的最重要主线之一是男主突破自己心理障碍的过程，整个过程巧妙地穿插在整部剧集中，到整部剧结尾处甚至还留了一个首位呼应。但细讲会涉及到太多剧透，所以还是请有兴趣的朋友们自己去看吧（复读）。
